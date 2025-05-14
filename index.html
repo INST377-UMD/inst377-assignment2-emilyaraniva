@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+
+  <title>Home Page</title>
+  
+
+  <link rel="stylesheet" href="assignment2.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="assignment2.js" defer></script>
+</head>
+
+<body>
+
+    <nav id="nav-buttons">
+        <a href="index.html"><button class="button-55" role="button">Home</button></a>
+        <a href="stocks.html"><button class="button-55" role="button">Stocks</button></a>
+        <a href="dogs.html"><button class="button-55" role="button">Dogs</button></a>
+      </nav>      
+
+  <main>
+    <div class="box">Welcome to the Home Page</div>
+
+
+    <section>
+      <h2>Quote of the Moment</h2>
+      <p id="quote">Loading quote...</p>
+    </section>
+
+
+   
+    <section id="audioInstructions">
+        <section id="audioInstructions">
+            <h2>Voice Commands</h2>
+            <div class="command-list">
+              <div>"Say <strong>hello</strong>"</div>
+              <div>"Say <strong>change the color to red</strong>"</div>
+              <div>"Say <strong>navigate to home</strong>, <strong>navigate to dogs</strong>, etc."</div>
+              <div>"Say <strong>lookup AAPL</strong> to display stock data"</div>
+            </div>
+            <button class="button-55" onclick="turnOnAudio()">Turn On Audio</button>
+            <button class="button-55" onclick="turnOffAudio()">Turn Off Audio</button>
+          </section>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 by Emily Araniva</p>
+  </footer>
+</body>
+</html>
